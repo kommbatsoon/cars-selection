@@ -16,7 +16,7 @@
         navigator.clipboard.writeText(JSON.stringify(options)).then(() => {
             console.log('Options copied to clipboard!');
         })
-    }, 3000);
+    }, 2000);
 
     console.log('Please click on page in 3 sec');
 })()

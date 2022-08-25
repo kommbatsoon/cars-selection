@@ -1,0 +1,1 @@
+export const copyToClipboard = (value) => navigator.clipboard.writeText(value).then(() => console.log('Successfully copied!'))
